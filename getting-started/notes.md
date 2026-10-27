@@ -12,7 +12,7 @@
 
 ## To run
 
-Assuming the venv is named env and set up with the required packages `requiremnts.txt`
+Assuming the venv is named env and set up with the required packages `requirements.txt`
 
 ```bash
 kubectl apply -f deploy/raycluster-sandbox.yaml
