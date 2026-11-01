@@ -41,3 +41,5 @@ end_time = time.time()
 
 print(f"Processed {len(images)} images in time {(end_time - start_time):.2f}")
 print(f"Pixel count : {total_pixels}")
+
+ray.shutdown()
