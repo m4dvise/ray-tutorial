@@ -24,3 +24,5 @@ processed_ds.write_images(
     column="processed_image",
     try_create_dir=False,
 )
+
+ray.shutdown()
